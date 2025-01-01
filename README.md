@@ -66,13 +66,13 @@ AVR fuse bits:
  Low byte: CKSEL[3..0] = 1111, SUT[1..0] = 11, CKOUT = 1, CKDIV8 = 1
 ```
 
-Firmware is available at [stepper_ctrl/fw_stepper_v1](./tree/stepper_ctrl/fw_stepper_v1).
+Firmware is available at [stepper_ctrl/fw_stepper_v1/](./stepper_ctrl/fw_stepper_v1).
 
 ## Android controll app "Merkur Motor"
 
 Stepper controller can be controlled by terminal, but it's not exactly practical, so I decided to make an app for Android. This was my first atempt ever, so be warned it is not nice and optimal code but may be still used to cannibalize some parts. 
 After some reading I decided to give a try to [Android Studio](https://developer.android.com/studio) and popular language [Kotlin](https://kotlinlang.org). That turned out to be good choice. Especially Kotlin is nice and simple language compared to e.g. C++. 
-At first I tried to use some BT serial libraries, but I was not able to deal with collisions between some libraries so I tried to make BT communication using basic libraries. That was simpler than expected. Basically just list paired BT devices, select one, open BT socket and get in/out streams. Done. The worst part was dealing with permissions and trying to deal with loss of communication e.g. when the BT device goes offline. But in the end it kind of works at least from Android 11 to 14.
+At first I tried to use some BT serial libraries, but I was not able to deal with collisions between some libraries so I tried to make BT communication using basic libraries. That was simpler than expected. Basically just list paired BT devices, select one, open BT socket and get in/out streams. Done. The worst part was dealing with permissions and trying to deal with loss of communication e.g. when the BT device goes offline. But in the end it kind of works at least from Android 11 to 14. Source is available at [MerkurControl/](./MerkurControl/).
 
 ![Android app](./img/app_screen1.png)
 
