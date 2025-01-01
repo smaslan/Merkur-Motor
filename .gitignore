@@ -1,0 +1,5 @@
+/MerkurControl/.idea
+/MerkurControl/.kotlin
+*.log
+/stepper_ctrl/fw_stepper_v1/Release/*
+!/stepper_ctrl/fw_stepper_v1/Release/*.hex
