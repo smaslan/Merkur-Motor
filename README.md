@@ -5,7 +5,7 @@ This is simple project of one stepper motor controller designed for Czech toy
 I don't expect this project as a whole would be useful to most people
 but it may serve as a source for canibalization of some of its parts.
 
-![Controller box](./img/pic_01.pjg)
+![Controller box](./img/pic_01.jpg)
 ![Controller insides](./img/pic_02.jpg)
 
 ## Hardware
