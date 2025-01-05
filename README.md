@@ -3,7 +3,10 @@
 This is simple project of one stepper motor controller designed for Czech toy 
 [Merkur](https://www.merkurtoys.cz). It has manual speed and direction controlls and Bluetooth module for remote control via terminal commands or Android app. 
 I don't expect this project as a whole would be useful to most people
-but it may serve as a source for canibalization of some parts.
+but it may serve as a source for canibalization of some of its parts.
+
+![Controller box](./img/pic_01.pjg)
+![Controller insides](./img/pic_02.jpg)
 
 ## Hardware
 
